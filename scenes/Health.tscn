@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scripts/Health.gd" type="Script" id=1]
+
+[node name="Health" type="ProgressBar"]
+margin_right = 57.0
+margin_bottom = 14.0
+max_value = 20.0
+step = 1.0
+percent_visible = false
+script = ExtResource( 1 )
